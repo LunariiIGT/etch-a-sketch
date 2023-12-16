@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-a-Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game">
+        <div class="container"></div>
+
+        <div>
+            <div class="buttons">
+                <h1>Etch-a-Sketch</h1>
+                
+                <div class="button-container">
+                    <input class="hover" id="colorPicker" type="color" value="#black" />
+                    <button class="hover" id="color">Color Mode</button>
+                </div>
+                <button id="rainbow">Rainbow Mode</button>
+                <br>
+                <button id="eraser">Eraser</button>
+                <br>
+                <button id="grid">Toggle Grid</button>
+                <button id="clear">Clear</button>
+
+                <input class="slider" type="range" min="2" max="64" value="16">
+                <br>
+                <div class="sliderText">16 x 16</div>
+            </div>
+        </div>      
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
